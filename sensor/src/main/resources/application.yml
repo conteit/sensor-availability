@@ -1,0 +1,5 @@
+sensor:
+  brokers-list: localhost:9092
+  reading-period: 1s
+  schema-registry-url: http://localhost:8081
+  topic: temperature-readings

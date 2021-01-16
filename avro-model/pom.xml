@@ -5,7 +5,7 @@
   <packaging>jar</packaging>
   <groupId>com.github.conteit.sensors</groupId>
   <artifactId>avro-model</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>1.0</version>
 
   <parent>
     <groupId>org.spf4j.avro</groupId>
