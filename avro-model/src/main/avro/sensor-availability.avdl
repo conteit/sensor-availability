@@ -1,0 +1,15 @@
+@namespace("com.github.conteit.sensors.availability")
+protocol SensorAvailability {
+
+    /** Represents the status of a sensor: is it available? */
+    @Immutable
+    record Sensor {
+        /** The identifier of the sensor */
+        string sensorId;
+        /** Is it available? */
+        boolean available;
+        /** When availability status changed last time */
+        long since;
+    }
+
+}

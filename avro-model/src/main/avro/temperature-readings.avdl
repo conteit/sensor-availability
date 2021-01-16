@@ -1,0 +1,15 @@
+@namespace("com.github.conteit.sensors.readings")
+protocol TemperatureReadings {
+
+    /** Represents the temperature measured by a specific sensor in a specific instant of time */
+    @Immutable
+    record TemperatureReading {
+        /** The identifier of the sensor */
+        string sensorId;
+        /** When the reading occurred */
+        long when;
+        /** The measeured temperature */
+        double temperature;
+    }
+
+}
