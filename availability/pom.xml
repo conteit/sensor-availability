@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.conteit.sensors</groupId>
     <artifactId>availability</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>1.3</version>
     <name>availability</name>
 
     <properties>

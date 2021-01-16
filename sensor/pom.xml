@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.conteit.sensors</groupId>
     <artifactId>sensor</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>1.2</version>
 
     <properties>
         <java.version>15</java.version>

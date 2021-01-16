@@ -5,7 +5,7 @@
   <packaging>pom</packaging>
   <groupId>com.github.conteit.sensors</groupId>
   <artifactId>sensor-availability</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>1.0</version>
 
   <modules>
     <module>avro-model</module>
