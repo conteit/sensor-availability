@@ -1,6 +1,6 @@
 # Sensor Availability
 
-This is an experimental test project that I have created in order to find a way for using temperature sensor readings in order to determine if sensor is still operational (available) or not, by exploiting Apache Kafka capabilities.
+This is an exploratory project that I have created in order to find a way for using temperature sensor readings in order to determine if sensor is still operational (available) or not, by exploiting Apache Kafka capabilities.
 
 ## Usage
 
