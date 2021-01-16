@@ -36,7 +36,7 @@ public class SensorAvailabilityTransformer
     @Override
     public KeyValue<String, Sensor> transform(String sensorId, Sensor sensor) {
         if (justChangedAvailabilityOrNull(sensor)) {
-            log.warn("transform: {}", sensor);
+            log.debug("transform: {}", sensor);
             return KeyValue.pair(sensorId, sensor);
         }
 
