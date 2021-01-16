@@ -1,0 +1,27 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        availability-in-0:
+          destination: temperature-readings
+          consumer:
+            use-native-decoding: true
+          content-type: application/*+avro
+        availability-out-0:
+          destination: sensor-availability
+          producer:
+            use-native-decoding: true
+          content-type: application/*+avro
+      kafka:
+        streams:
+          binder:
+            application-id: sensors-availability
+            configuration:
+              schema.registry.url: http://localhost:8081
+              default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+              default.value.serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+              commit.interval.ms: 100
+              application.server: localhost:8080
+            deserializationExceptionHandler: logAndContinue
+server:
+  port: 8080

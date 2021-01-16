@@ -10,6 +10,8 @@ protocol SensorAvailability {
         boolean available;
         /** When availability status changed last time */
         long since;
+        /** When the last temperature reading has occurred */
+        long lastReadingAt;
     }
 
 }

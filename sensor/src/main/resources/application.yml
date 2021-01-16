@@ -3,3 +3,4 @@ sensor:
   reading-period: 1s
   schema-registry-url: http://localhost:8081
   topic: temperature-readings
+  sensor-id: 8def7bd0-0721-4379-89f8-64f5e3767d5f
